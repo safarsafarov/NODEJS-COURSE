@@ -39,11 +39,11 @@
 
 // 7. Arrays & Array Methods
 const person = {
-  name: 'Safar',
-  age: 18,
-  greet() {
-    console.log('Hi, I am ' + this.name);
-  }
+ name: 'Safar',
+ age: 18,
+ greet() {
+   console.log('Hi, I am ' + this.name);
+ }
 };
 
 const hobbies = ['Sports', 'Coding', 1];
