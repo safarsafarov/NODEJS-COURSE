@@ -1,0 +1,11 @@
+{
+  "name": "4_improved-development-workflow-and-debugging",
+  "version": "1.0.0",
+  "description": "Improved-Development-Workflow-and-Debugging",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Safar Safarov",
+  "license": "ISC"
+}
