@@ -8,6 +8,7 @@ const app = express();
 
 app.use(bodyPareser.urlencoded({extended: false}));
 
+
 app.use('/admin', adminRoutes);
 app.use(shopRoutes);
 
