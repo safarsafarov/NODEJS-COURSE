@@ -1,5 +1,4 @@
 const express = require('express');
-
 const router = express.Router();
 
 // /admin/add-product => GET
@@ -14,4 +13,6 @@ router.post('/admin/product', (req, res, next) => {
 });
 
 module.exports = router;
+
+const r = "k";
 
