@@ -18,22 +18,41 @@
    background: #dbc441;
   }
 
-  .main-header__item-list {
+  .main-header__nav {
+   height: 100%;
+   display: flex;
+   align-items: center;
+   padding: 1.5rem;
+  }
+
+  .main-header_item-list {
    list-style: none;
    margin: 0;
    padding: 0;
    display: flex;
   }
 
-  .main-header_item {}
+
+  .main-header_item-list {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+  }
+
+  .main-header__item a:hover,
+  .main-header__item a:active,
+  .main-header__item a.active {
+   color: #6200ff;
+  }
  </style>
 </head>
 
 <body>
  <header class="main-header">
-  <nav class="main-header-nav">
+  <nav class="main-header__nav">
    <ul class="main-header__item-list">
-    <li class="main-header__item"><a href="/">Shop</a></li>
+    <li class="main-header__item"><a class="active" href="/">Shop</a></li>
     <li class="main-header__item"><a href="/add-product">Add Product</a></li>
    </ul>
   </nav>
