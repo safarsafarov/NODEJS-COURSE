@@ -14,3 +14,5 @@ router.post('/admin/product', (req, res, next) => {
 });
 
 module.exports = router;
+
+
