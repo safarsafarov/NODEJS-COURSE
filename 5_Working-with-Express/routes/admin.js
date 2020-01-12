@@ -10,6 +10,7 @@ const products = [];
 
 // /admin/add-product => GET
 router.get('/add-product', (req, res, next) => {
+  products.push({title: req.body.title});
   res.sendFile(path.join(rootDir, 'views', 'add-product.html'));
 });
 
